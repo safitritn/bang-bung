@@ -1,34 +1,62 @@
-.bohlam {
-  display: grid;
-  gap: 40px;
-  grid-template-columns: repeat(50, 1fr);
-  width: max-content;
-}
-.traffic {
+.bohlam{
   background: #000;
   padding: 40px 20px;
-  width: fit-content;
+  width: 80px;
+  height: 130px;
   display: flex;
   align-items: center;
   flex-flow: column;
   gap: 40px;
   border-radius: 10px;
 }
-.bulat {
-  border-radius: 60%;
+
+
+.container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(16, 1fr);
+  width: max-content;
 }
-.light {
-  height: 70px;
-  width: 70px;
-  background: #FFD700;
+
+.circle {
+  border-radius: 50%;
 }
-.light.on {
-  background: #C0C0C0;
+
+.DarkRed {
+  height: 80px;
+  width: 80px;
+  background: rgb(139, 0, 0);
 }
+
+
+.DarkRed.on {
+  background: rgb(255, 0, 0);
+}
+
+
 .button {
-  height: 30px;
-  width: 30px;
-  background: #FFFFFF;
+  height: 50px;
+  width: 50px;
+  background: rgb(248, 248, 255);
   border: none;
-  cursor: pointer;
+
+}
+.button:active {
+  background: rgb(255, 250, 250);
+} 
+.DarkGreen {
+  height: 80px;
+  width: 80px;
+  background: rgb(8, 100, 0);
+}
+.DarkGreen.on {
+  background: rgb(0, 128, 0);
+}
+.CanaryYellow {
+  height: 80px;
+  width: 80px;
+  background: rgb(255, 239, 0);
+}
+.CanaryYellow.on {
+  background: rgb(255, 253, 55);
 }
